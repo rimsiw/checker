@@ -24,7 +24,7 @@ int main() {
         wyciag.close();
         if(y == "t") {
             string w2;
-            while(getline (wyciag2, w2)) {
+            while (getline (wyciag2, w2)) {
                 cin >> odp;
                 if(odp == w2) {
                     cout << "Bardzo dobrze!";
@@ -35,10 +35,10 @@ int main() {
             }
         }
         else if(y == "n") {
-            cout << "Koncze."
+            cout << "Koncze.";
         }
         else {
-            cout << "Koncze."
+            cout << "Koncze.";
         }
         wyciag2.close();
     }
