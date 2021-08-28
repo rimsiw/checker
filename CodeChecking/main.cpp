@@ -35,10 +35,10 @@ int main() {
             }
         }
         else if(y == "n") {
-            break;
+            cout << "Koncze."
         }
         else {
-            break;  
+            cout << "Koncze."
         }
         wyciag2.close();
     }
